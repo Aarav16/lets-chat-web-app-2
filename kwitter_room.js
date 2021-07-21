@@ -1,15 +1,14 @@
 var firebaseConfig = {
-      apiKey: "AIzaSyBKVOW-MWn7CQLxUyMvE55u4cdWRLOzrjk",
-      databaseURL:"https://kwitter-b5316-default-rtdb.firebaseio.com/",
-      authDomain: "kwitter-b5316.firebaseapp.com",
-      projectId: "kwitter-b5316",
-      storageBucket: "kwitter-b5316.appspot.com",
-      messagingSenderId: "297412377172",
-      appId: "1:297412377172:web:bff93ebdf46a15ffabcbc1"
+      apiKey: "AIzaSyAZmbC9xfzxqXosviiaLg_ui1qqaU3b4sA",
+      authDomain: "lets-chat-9babe.firebaseapp.com",
+      databaseURL: "https://lets-chat-9babe-default-rtdb.firebaseio.com",
+      projectId: "lets-chat-9babe",
+      storageBucket: "lets-chat-9babe.appspot.com",
+      messagingSenderId: "461964004091",
+      appId: "1:461964004091:web:4b5cfb3d88f46ba529fe5e"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
-//ADD YOUR FIREBASE LINKS HERE
 user_name=localStorage.getItem("user-name") ;
 document.getElementById("user_name").innerHTML="Welcome " + user_name + "!!";
 function addRoom(){
